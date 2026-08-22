@@ -1,0 +1,95 @@
+/**
+ * ClaimRunner design tokens
+ * Canonical marketing palette + type + space.
+ * Import before page styles. Do not add one-off sizes here.
+ */
+
+:root {
+  /* Color — text */
+  --ink: #0f172a;        /* headings & strong text (slate near-black) */
+  --muted: #1e293b;      /* body & secondary text */
+  --text-3: #475569;     /* tertiary — captions, sources, footer links */
+
+  /* Color — brand (accents only; not heading text) */
+  --blue: #1d4ed8;       /* links, buttons, numbers, icons */
+  --blue-deep: #1e40af;  /* hover / pressed */
+  --blue-ink: #0b3a9e;   /* deep cobalt surface (optional alt to brand blue) */
+
+  /* Color — surfaces */
+  --page: #ffffff;
+  --soft: #f4f7fa;
+  --line: #e2e8f0;
+
+  /* Carousel stage fills — soft panel backgrounds */
+  --stage-1: #dbeafe;
+  --stage-2: #e0e7ff;
+  --stage-3: #ede9fe;
+  --stage-4: #e0f2fe;
+  --stage-5: #ecfeff;
+
+  /* Carousel product-mock surfaces — strong fills inside panels */
+  --surface-1: #2563eb;
+  --surface-2: #4f46e5;
+  --surface-3: #7c3aed;
+  --surface-4: #0284c7;
+  --surface-5: #0e7490;
+
+  /* Layout */
+  --shell: 1440px;
+  --gutter: clamp(1.25rem, 4vw, 2rem);
+  --radius-pill: 999px;
+  --radius: 1rem;
+  --card-radius: 1.5rem;
+  --card-pad: 1.5rem; /* 24px */
+
+  /* Spacing — 4px grid */
+  --space-1: 0.25rem;   /* 4  */
+  --space-2: 0.5rem;    /* 8  */
+  --space-3: 0.75rem;   /* 12 */
+  --space-4: 1rem;      /* 16 */
+  --space-5: 1.5rem;    /* 24 */
+  --space-6: 2rem;      /* 32 */
+  --space-7: 3rem;      /* 48 */
+  --space-8: 4rem;      /* 64 */
+  --space-9: 6rem;      /* 96 */
+  --section-y: clamp(4rem, 8vw, 6rem); /* 64→96 */
+
+  /*
+   * Type — closed ladder (px @ 16px root).
+   * Only these sizes ship. No intermediate clamp values.
+   *   12  14  16  18  20  24  32  40  48  56  72
+   */
+  --fs-eyebrow: 0.75rem;   /* 12 — kickers, captions, cites, superscripts */
+  --fs-sm: 0.875rem;       /* 14 — secondary UI, buttons, nav */
+  --fs-body: 1rem;         /* 16 — default body */
+  --fs-body-lg: 1.125rem;  /* 18 — lead paragraphs under H2s */
+  --fs-lead: 1.25rem;      /* 20 — hero subtext, FAQ questions, logo */
+  --fs-h3: 1.5rem;         /* 24 — card / about titles */
+  --fs-h2: 2rem;           /* 32 — section H2 (base) */
+  --fs-metric: 2.5rem;     /* 40 — metric numbers */
+  --fs-h2-lg: 3rem;        /* 48 — section H2 (desktop) */
+  --fs-h1: 3.5rem;         /* 56 — hero H1 (base) */
+  --fs-h1-lg: 4.5rem;      /* 72 — hero H1 (desktop) */
+
+  /* Role aliases — stepped at 768px */
+  --fs-heading-1: var(--fs-h1);
+  --fs-heading-2: var(--fs-h2);
+  --fs-heading-3: var(--fs-h3);  /* panel titles: 24 → 32 */
+  --fs-stat: var(--fs-metric);   /* metrics stay 40 */
+
+  --ls-eyebrow: 0.08em;
+
+  --lh-tight: 1.15;
+  --lh-body: 1.6;
+
+  --sans: "DM Sans", system-ui, sans-serif;
+  --serif: "Source Serif 4", Georgia, serif;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --fs-heading-1: var(--fs-h1-lg); /* 72 */
+    --fs-heading-2: var(--fs-h2-lg); /* 48 */
+    --fs-heading-3: var(--fs-h2);    /* 32 */
+  }
+}

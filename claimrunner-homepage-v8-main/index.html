@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ClaimRunner — Small claims made simple</title>
+  <meta name="description" content="A guided path through small claims for self-represented people. Starting in King County, WA. Informational and administrative support, not legal advice." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="shell nav__row">
+      <a class="logo" href="index.html">ClaimRunner</a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#how">How it works</a>
+        <a href="#start">About ClaimRunner</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="btn btn--solid btn--sm" type="button" data-open-signup>Join the waitlist</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- 1. Hero — live header copy -->
+    <section class="hero">
+      <div class="hero__bg" role="img" aria-label="Person at home reviewing papers on a laptop"></div>
+      <div class="hero__shade"></div>
+      <div class="shell hero__content">
+        <h1>Small claims<br />made simple.</h1>
+        <p>
+          Step by step guidance and administrative support for anyone going through
+          the small claims process starting in King County, WA.
+        </p>
+        <div class="hero__ctas">
+          <button class="btn btn--solid" type="button" data-open-signup>Join the waitlist</button>
+          <button class="btn btn--outline" type="button" data-open-coming-soon>Check your eligibility</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Key hook / metrics -->
+    <section class="hook" aria-label="Why this matters">
+      <div class="shell">
+        <div class="hook__intro">
+          <h2>You don't have to navigate this alone</h2>
+          <p>
+            Washington state requires individuals to represent themselves in small claims court.
+            People are forced to learn how to navigate the court system, often for the first time
+            in their lives.
+          </p>
+        </div>
+        <div class="hook__grid">
+          <article class="hook__card">
+            <p class="hook__num">Nearly 3/4</p>
+            <p class="hook__text">of low-income households face at least one civil legal problem per year.</p>
+          </article>
+          <article class="hook__card">
+            <p class="hook__num">50–70%</p>
+            <p class="hook__text">of small claims cases drop before a final trial verdict due to simple procedural errors.</p>
+          </article>
+          <article class="hook__card">
+            <p class="hook__num">$346/hr</p>
+            <p class="hook__text">is the average cost of a Washington state attorney, making legal counsel inaccessible.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. How it works: Hinge-style carousel panels -->
+    <section id="how" class="how">
+      <div class="shell how__head">
+        <h2>One place for every step of your case.</h2>
+        <p>Our platform will walk you through the entire small claims journey.<br />One step at a time with 5 distinct phases.</p>
+      </div>
+
+      <div class="how-carousel">
+        <div class="how-carousel__track" id="how-track" tabindex="0">
+          <article class="how-panel how-panel--1">
+            <div class="how-panel__copy">
+              <span class="how-panel__num">Step 01</span>
+              <p class="how-panel__phase">Pre-trial</p>
+              <h3>Start with eligibility. Then prepare with confidence.</h3>
+              <p>
+                Confirm whether small claims might fit, prepare a demand letter, fill
+                court forms, and follow filing and service without drowning in legalese.
+              </p>
+
+            </div>
+            <div class="how-panel__surface" aria-hidden="true">
+              <div class="surface surface--1">
+                <div class="mock mock--wire">
+                  <p class="mock__title">Am I eligible?</p>
+                  <div class="surface__opt">Unpaid wages</div>
+                  <div class="surface__opt is-on">Security deposit</div>
+                  <div class="surface__opt">Broken agreement</div>
+                  <div class="surface__cta">Check eligibility</div>
+                </div>
+                <div class="mock mock--stat">
+                  <p class="mock__stat-eyebrow">Looks like a fit</p>
+                  <p class="mock__stat-line">Small claims may be your path.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="how-panel how-panel--2">
+            <div class="how-panel__copy">
+              <span class="how-panel__num">Step 02</span>
+              <p class="how-panel__phase">Mediation</p>
+              <h3>Walk into mediation knowing what matters.</h3>
+              <p>
+                Review clear expectations about King County's mediation process. Keep
+                facts, documents, and priorities organized for the conversation.
+              </p>
+
+            </div>
+            <div class="how-panel__surface" aria-hidden="true">
+              <div class="surface surface--2">
+                <div class="mock mock--wire">
+                  <p class="mock__title">Your priorities</p>
+                  <div class="surface__row"><span>Deposit amount</span><strong>Ready</strong></div>
+                  <div class="surface__row"><span>Timeline of events</span><strong>Drafting</strong></div>
+                  <div class="surface__row"><span>Photos &amp; receipts</span><strong>Attached</strong></div>
+                </div>
+                <div class="mock mock--stat">
+                  <p class="mock__stat-eyebrow">Mediation</p>
+                  <p class="mock__stat-line">Session ready in 3 days.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="how-panel how-panel--3">
+            <div class="how-panel__copy">
+              <span class="how-panel__num">Step 03</span>
+              <p class="how-panel__phase">Trial</p>
+              <h3>Show up prepared to tell your story.</h3>
+              <p>
+                Organize timelines, evidence, and what you want to say so a hearing feels
+                less like guessing and more like a clear account of what happened.
+              </p>
+
+            </div>
+            <div class="how-panel__surface" aria-hidden="true">
+              <div class="surface surface--3">
+                <div class="mock mock--wire">
+                  <p class="mock__title">Hearing outline</p>
+                  <div class="surface__step"><span>1</span> What happened</div>
+                  <div class="surface__step"><span>2</span> What you want</div>
+                  <div class="surface__step"><span>3</span> Evidence to show</div>
+                </div>
+                <div class="mock mock--stat">
+                  <p class="mock__stat-eyebrow">Checklist</p>
+                  <p class="mock__stat-line">6 items organized.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="how-panel how-panel--4">
+            <div class="how-panel__copy">
+              <span class="how-panel__num">Step 04</span>
+              <p class="how-panel__phase">Post-judgment</p>
+              <h3>Winning isn't the finish line if you still aren't paid.</h3>
+              <p>
+                Follow collection options and timelines with clearer next steps when a
+                judgment needs follow-through.
+              </p>
+
+            </div>
+            <div class="how-panel__surface" aria-hidden="true">
+              <div class="surface surface--4">
+                <div class="mock mock--wire">
+                  <p class="mock__title">Next actions</p>
+                  <div class="surface__row"><span>Payment window</span><strong>30 days</strong></div>
+                  <div class="surface__row"><span>Collection options</span><strong>3 available</strong></div>
+                  <div class="surface__row"><span>Reminders</span><strong>On</strong></div>
+                </div>
+                <div class="mock mock--stat">
+                  <p class="mock__stat-num">$1,240</p>
+                  <p class="mock__stat-line">awarded to you.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="how-panel how-panel--5">
+            <div class="how-panel__copy">
+              <span class="how-panel__num">Step 05</span>
+              <p class="how-panel__phase">Appeal</p>
+              <h3>Know the narrow path if you need to appeal.</h3>
+              <p>
+                Understand grounds, clocks, and petition materials when appeal is an option,
+                so you are not guessing under a deadline.
+              </p>
+
+            </div>
+            <div class="how-panel__surface" aria-hidden="true">
+              <div class="surface surface--5">
+                <div class="mock mock--wire">
+                  <p class="mock__title">Appeal clock</p>
+                  <div class="surface__row"><span>Filing window</span><strong>14 days</strong></div>
+                  <div class="surface__row"><span>Grounds checklist</span><strong>Review</strong></div>
+                  <div class="surface__row"><span>Petition draft</span><strong>Ready</strong></div>
+                </div>
+                <div class="mock mock--stat">
+                  <p class="mock__stat-eyebrow">Deadline</p>
+                  <p class="mock__stat-line">14 days to file.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="shell how-carousel__controls">
+          <button class="how-carousel__btn" type="button" id="how-prev" aria-label="Previous stage">
+            <svg class="how-carousel__icon how-carousel__icon--regular" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="44" height="44" fill="currentColor" aria-hidden="true"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm48-88a8,8,0,0,1-8,8H107.31l18.35,18.34a8,8,0,0,1-11.32,11.32l-32-32a8,8,0,0,1,0-11.32l32-32a8,8,0,0,1,11.32,11.32L107.31,120H168A8,8,0,0,1,176,128Z"/></svg>
+            <svg class="how-carousel__icon how-carousel__icon--fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="44" height="44" fill="currentColor" aria-hidden="true"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm40,112H107.31l18.35,18.34a8,8,0,0,1-11.32,11.32l-32-32a8,8,0,0,1,0-11.32l32-32a8,8,0,0,1,11.32,11.32L107.31,120H168a8,8,0,0,1,0,16Z"/></svg>
+          </button>
+          <button class="how-carousel__btn" type="button" id="how-next" aria-label="Next stage">
+            <svg class="how-carousel__icon how-carousel__icon--regular" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="44" height="44" fill="currentColor" aria-hidden="true"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm45.66-82.34-32,32a8,8,0,0,1-11.32-11.32L148.69,136H88a8,8,0,0,1,0-16h60.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,173.66,133.66Z"/></svg>
+            <svg class="how-carousel__icon how-carousel__icon--fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="44" height="44" fill="currentColor" aria-hidden="true"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,109.66-32,32a8,8,0,0,1-11.32-11.32L148.69,136H88a8,8,0,0,1,0-16h60.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,173.66,133.66Z"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Why — Mission + Background facts -->
+    <section id="start" class="about why-org">
+      <div class="shell">
+        <h2>Justice shouldn't need a law degree</h2>
+        <div class="why-org__pair">
+          <div class="about__card">
+            <span class="about__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Z"/><circle cx="128" cy="128" r="40"/></svg>
+            </span>
+            <h3>Mission</h3>
+            <p>
+              ClaimRunner makes the small claims process more understandable, accessible,
+              and manageable. Rooted in our values to use responsible technology, empower
+              individuals, and reduce the access to justice gap, we transform confusing
+              procedures, paperwork, and deadlines into a clear, guided experience.
+            </p>
+          </div>
+          <div class="about__card">
+            <span class="about__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.72a97.6,97.6,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"/></svg>
+            </span>
+            <h3>Background</h3>
+            <p>
+              Our team carries experience across product development, design, engineering, AI, law,
+              and public-sector strategy. ClaimRunner inspired us because we've experienced the
+              feeling of being wronged and underserved by the system. We passionately believe that
+              pursuing one should not depend on a person's income or legal knowledge.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. FAQ -->
+    <section id="faq" class="faq">
+      <div class="shell faq__inner">
+        <div class="faq__head">
+          <h2>Common questions</h2>
+        </div>
+        <div class="faq__list">
+          <details>
+            <summary>Is ClaimRunner a law firm?</summary>
+            <p>No. ClaimRunner is not a law firm and does not provide legal advice or representation. Tools are for educational, organizational, and administrative support only.</p>
+          </details>
+          <details>
+            <summary>Who is ClaimRunner for?</summary>
+            <p>Self-represented people navigating small claims, starting in King County, WA. Expanding to more jurisdictions in the future.</p>
+          </details>
+          <details>
+            <summary>Will ClaimRunner tell me if I am going to win?</summary>
+            <p>No. ClaimRunner does not predict outcomes, assess legal merits of cases, liability, or recommend legal strategy.</p>
+          </details>
+          <details>
+            <summary>How does ClaimRunner use AI?</summary>
+            <p>AI may help organize information you provide, reduce repetitive work, improve clarity, and prepare materials for your review. It does not create facts, make legal decisions, or replace professional legal advice.</p>
+          </details>
+          <details>
+            <summary>How do I use ClaimRunner?</summary>
+            <p>Join the waitlist to hear when tools open and to help shape early versions of the product. Free to join, no account required.</p>
+          </details>
+          <details>
+            <summary>How can ClaimRunner help me?</summary>
+            <p>If you are currently going through, or expect to go through, the small claims process: ClaimRunner provides clear, personalized, and actionable guidance through an intuitive experience. We automate document generation (such as demand letters and small claims applications), organize your information, and help tailor your material towards your local court’s requirements. We offer support through the entire small claims life-cycle so you won’t have to worry about missing steps, incorrectly submitting materials, or questioning your options!</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Signup CTA -->
+    <section id="signup" class="signup">
+      <div class="shell signup__row">
+        <div class="signup__copy">
+          <h2>Interested in learning more about ClaimRunner?</h2>
+          <p>Join the waitlist for product news and early access opportunities. No spam.</p>
+        </div>
+        <form class="signup-inline" data-waitlist-form>
+          <label class="visually-hidden" for="waitlist-email">Email</label>
+          <input id="waitlist-email" type="email" name="email" placeholder="Enter your email address" autocomplete="email" required />
+          <button class="btn btn--solid" type="submit">Join the waitlist</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="shell foot__top">
+      <div class="foot__brand">
+        <a class="logo" href="index.html">ClaimRunner</a>
+      </div>
+
+      <div class="foot__cols">
+        <div>
+          <h4>Explore</h4>
+          <a href="#how">How it works</a>
+          <a href="#start">Why ClaimRunner</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div>
+          <h4>Get started</h4>
+          <button type="button" data-open-signup>Join the list</button>
+          <button type="button" data-open-contact>Contact</button>
+        </div>
+      </div>
+
+      <div class="foot__aside">
+        <p>
+          ClaimRunner is not a law firm and does not provide legal advice or representation.
+          Information and tools are for educational, organizational, document-preparation, and
+          administrative purposes only. Use does not create an attorney-client relationship.
+        </p>
+        <p class="foot__meta">
+          <span>© 2026 ClaimRunner</span>
+          <span class="foot__pipes">
+            <a href="legal.html">Terms</a>
+            <a href="legal.html#privacy">Privacy</a>
+          </span>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="modal" id="waitlist-modal" aria-labelledby="waitlist-title">
+    <div class="modal__sheet">
+      <header class="modal__head">
+        <div class="modal__title-row">
+          <svg class="modal__success-icon" data-waitlist-success xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="28" height="28" fill="currentColor" aria-hidden="true" hidden><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"/></svg>
+          <h2 id="waitlist-title">Thanks for joining!</h2>
+        </div>
+        <button type="button" class="modal__close" data-close-dialog aria-label="Close">
+          <svg class="modal__close-icon modal__close-icon--regular" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="32" height="32" fill="currentColor" aria-hidden="true"><path d="M165.66,101.66,139.31,128l26.35,26.34a8,8,0,0,1-11.32,11.32L128,139.31l-26.34,26.35a8,8,0,0,1-11.32-11.32L116.69,128,90.34,101.66a8,8,0,0,1,11.32-11.32L128,116.69l26.34-26.35a8,8,0,0,1,11.32,11.32ZM232,128A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z"/></svg>
+          <svg class="modal__close-icon modal__close-icon--fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="32" height="32" fill="currentColor" aria-hidden="true"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm37.66,130.34a8,8,0,0,1-11.32,11.32L128,139.31l-26.34,26.35a8,8,0,0,1-11.32-11.32L116.69,128,90.34,101.66a8,8,0,0,1,11.32-11.32L128,116.69l26.34-26.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></svg>
+        </button>
+      </header>
+      <p class="modal__lead modal__lead--standalone" id="waitlist-lead">
+        ClaimRunner is preparing for a limited pilot with people navigating small claims in King County. Join the waitlist to receive product updates and opportunities to test early versions of the platform.
+      </p>
+      <form class="modal__body modal__form" data-followup-form>
+        <label>Email
+          <input id="followup-email" type="email" name="email" placeholder="you@example.com" autocomplete="email" required />
+        </label>
+        <label>Full name
+          <span class="opt">(optional)</span>
+          <input id="followup-name" type="text" name="name" placeholder="Alex Rivera" autocomplete="name" />
+        </label>
+        <label>ZIP code
+          <span class="opt">(optional)</span>
+          <input id="followup-zip" type="text" name="zip" placeholder="98101" inputmode="numeric" autocomplete="postal-code" maxlength="10" />
+        </label>
+        <label>Why are you interested in ClaimRunner?
+          <span class="opt">(optional)</span>
+          <textarea id="followup-why" name="reason" rows="3" placeholder="e.g. I'm preparing a small claims case and want clearer next steps"></textarea>
+        </label>
+        <button class="btn btn--solid btn--block" type="submit">Get updates</button>
+      </form>
+    </div>
+  </dialog>
+
+  <dialog class="modal" id="coming-soon-modal" aria-labelledby="coming-soon-title">
+    <div class="modal__sheet is-compact">
+      <header class="modal__head">
+        <div class="modal__title-row">
+          <h2 id="coming-soon-title">Coming Soon!</h2>
+        </div>
+        <button type="button" class="modal__close" data-close-dialog aria-label="Close">
+          <svg class="modal__close-icon modal__close-icon--regular" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="32" height="32" fill="currentColor" aria-hidden="true"><path d="M165.66,101.66,139.31,128l26.35,26.34a8,8,0,0,1-11.32,11.32L128,139.31l-26.34,26.35a8,8,0,0,1-11.32-11.32L116.69,128,90.34,101.66a8,8,0,0,1,11.32-11.32L128,116.69l26.34-26.35a8,8,0,0,1,11.32,11.32ZM232,128A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z"/></svg>
+          <svg class="modal__close-icon modal__close-icon--fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="32" height="32" fill="currentColor" aria-hidden="true"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm37.66,130.34a8,8,0,0,1-11.32,11.32L128,139.31l-26.34,26.35a8,8,0,0,1-11.32-11.32L116.69,128,90.34,101.66a8,8,0,0,1,11.32-11.32L128,116.69l26.34-26.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></svg>
+        </button>
+      </header>
+      <p class="modal__lead modal__lead--standalone" id="coming-soon-lead">
+        We're close to launching our King County Small Claims Eligibility Checker.
+      </p>
+    </div>
+  </dialog>
+
+  <dialog class="modal" id="contact-modal" aria-labelledby="contact-title">
+    <div class="modal__sheet">
+      <header class="modal__head">
+        <div class="modal__title">
+          <h2 id="contact-title">Get in Touch</h2>
+          <p class="modal__lead">Have a question or need help? Send us a message and we'll get back to you within 24 hours.</p>
+        </div>
+        <button type="button" class="modal__close" data-close-dialog aria-label="Close">
+          <svg class="modal__close-icon modal__close-icon--regular" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="32" height="32" fill="currentColor" aria-hidden="true"><path d="M165.66,101.66,139.31,128l26.35,26.34a8,8,0,0,1-11.32,11.32L128,139.31l-26.34,26.35a8,8,0,0,1-11.32-11.32L116.69,128,90.34,101.66a8,8,0,0,1,11.32-11.32L128,116.69l26.34-26.35a8,8,0,0,1,11.32,11.32ZM232,128A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z"/></svg>
+          <svg class="modal__close-icon modal__close-icon--fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="32" height="32" fill="currentColor" aria-hidden="true"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm37.66,130.34a8,8,0,0,1-11.32,11.32L128,139.31l-26.34,26.35a8,8,0,0,1-11.32-11.32L116.69,128,90.34,101.66a8,8,0,0,1,11.32-11.32L128,116.69l26.34-26.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></svg>
+        </button>
+      </header>
+      <form class="modal__form" data-contact-form>
+        <label>Name
+          <input id="contact-name" type="text" name="name" placeholder="e.g. Jane Doe" autocomplete="name" required />
+        </label>
+        <label>Email
+          <input id="contact-email" type="email" name="email" placeholder="you@example.com" autocomplete="email" required />
+        </label>
+        <label>Message
+          <span class="opt">(optional)</span>
+          <textarea id="contact-message" name="message" rows="4" placeholder="Tell us more..."></textarea>
+        </label>
+        <button class="btn btn--solid btn--block" type="submit">Submit</button>
+        <button class="modal__skip" type="button" data-close-dialog>Cancel</button>
+      </form>
+    </div>
+  </dialog>
+
+  <script>
+    (function () {
+      const waitlistModal = document.getElementById("waitlist-modal");
+      const waitlistSheet = waitlistModal ? waitlistModal.querySelector(".modal__sheet") : null;
+      const waitlistTitle = document.getElementById("waitlist-title");
+      const waitlistLead = document.getElementById("waitlist-lead");
+      const track = document.getElementById("how-track");
+      const waitlistForm = document.querySelector("[data-waitlist-form]");
+      const waitlistEmail = document.getElementById("waitlist-email");
+      const followupForm = document.querySelector("[data-followup-form]");
+      const followupEmail = document.getElementById("followup-email");
+      const followupName = document.getElementById("followup-name");
+      const followupWhy = document.getElementById("followup-why");
+      const waitlistSuccess = document.querySelector("[data-waitlist-success]");
+      const comingSoonModal = document.getElementById("coming-soon-modal");
+      const contactModal = document.getElementById("contact-modal");
+      const contactForm = document.querySelector("[data-contact-form]");
+      const contactName = document.getElementById("contact-name");
+      let waitlistCaptured = "";
+      let formTitle = "";
+      let formLead = "";
+
+      function openDialog(dialog) {
+        if (!dialog) return;
+        if (dialog.showModal) dialog.showModal();
+        else dialog.setAttribute("open", "");
+      }
+      function closeDialog(dialog) {
+        if (!dialog) return;
+        if (dialog.close) dialog.close();
+        else dialog.removeAttribute("open");
+      }
+
+      function setWaitlistSuccess(on) {
+        if (waitlistSheet) waitlistSheet.classList.toggle("is-success", !!on);
+        if (followupForm) followupForm.toggleAttribute("hidden", !!on);
+        if (waitlistSuccess) waitlistSuccess.toggleAttribute("hidden", !on);
+        if (waitlistTitle) {
+          waitlistTitle.textContent = on ? "You've joined the waitlist!" : formTitle;
+        }
+        if (waitlistLead) {
+          waitlistLead.textContent = on
+            ? "Stay tuned for updates from the ClaimRunner team"
+            : formLead;
+        }
+      }
+
+      function showWaitlistModal(email, lockEmail) {
+        waitlistCaptured = email || "";
+        formTitle = lockEmail ? "Thanks for joining!" : "Join the waitlist";
+        formLead = lockEmail
+          ? "Your email is confirmed. We'll send product news and early access notes as tools open in King County. Optionally tell us why you're interested so we can tailor ClaimRunner to people in your situation."
+          : "ClaimRunner is preparing for a limited pilot with people navigating small claims in King County. Join the waitlist to receive product updates and opportunities to test early versions of the platform.";
+        setWaitlistSuccess(false);
+        if (followupForm) followupForm.reset();
+        if (followupEmail) {
+          followupEmail.value = waitlistCaptured;
+          followupEmail.readOnly = !!lockEmail;
+          followupEmail.classList.toggle("is-locked", !!lockEmail);
+        }
+        openDialog(waitlistModal);
+        if (lockEmail && followupName) followupName.focus();
+        else if (followupEmail) followupEmail.focus();
+      }
+
+      document.querySelectorAll("[data-open-signup]").forEach(function (el) {
+        el.addEventListener("click", function (e) {
+          e.preventDefault();
+          showWaitlistModal("", false);
+        });
+      });
+      document.querySelectorAll("[data-open-coming-soon]").forEach(function (el) {
+        el.addEventListener("click", function (e) {
+          e.preventDefault();
+          openDialog(comingSoonModal);
+        });
+      });
+      document.querySelectorAll("[data-open-contact]").forEach(function (el) {
+        el.addEventListener("click", function (e) {
+          e.preventDefault();
+          if (contactForm) contactForm.reset();
+          openDialog(contactModal);
+          if (contactName) contactName.focus();
+        });
+      });
+      document.querySelectorAll("[data-close-dialog]").forEach(function (el) {
+        el.addEventListener("click", function () {
+          closeDialog(el.closest("dialog"));
+        });
+      });
+      if (waitlistModal) {
+        waitlistModal.addEventListener("click", function (e) {
+          if (e.target === waitlistModal) closeDialog(waitlistModal);
+        });
+      }
+      if (comingSoonModal) {
+        comingSoonModal.addEventListener("click", function (e) {
+          if (e.target === comingSoonModal) closeDialog(comingSoonModal);
+        });
+      }
+      if (contactModal) {
+        contactModal.addEventListener("click", function (e) {
+          if (e.target === contactModal) closeDialog(contactModal);
+        });
+      }
+
+      if (waitlistForm) {
+        waitlistForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+          const email = waitlistEmail ? waitlistEmail.value.trim() : "";
+          if (!email) return;
+          showWaitlistModal(email, true);
+        });
+      }
+      if (followupForm) {
+        followupForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+          setWaitlistSuccess(true);
+        });
+      }
+      if (contactForm) {
+        contactForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+          closeDialog(contactModal);
+        });
+      }
+
+      // Swap the overlay nav to its solid state once the page scrolls
+      const nav = document.querySelector(".nav");
+      if (nav && !nav.classList.contains("nav--light")) {
+        let ticking = false;
+        function syncNav() {
+          nav.classList.toggle("nav--scrolled", window.scrollY > 8);
+          ticking = false;
+        }
+        window.addEventListener("scroll", function () {
+          if (ticking) return;
+          ticking = true;
+          requestAnimationFrame(syncNav);
+        }, { passive: true });
+        syncNav();
+      }
+
+      function scrollHow(dir) {
+        const panel = track.querySelector(".how-panel");
+        const styles = getComputedStyle(track);
+        const pad = parseFloat(styles.scrollPaddingLeft) || 0;
+        const amount = panel ? panel.getBoundingClientRect().width + 24 : 900;
+        track.scrollBy({ left: dir * amount, behavior: "smooth" });
+        // Keep first panel aligned to content width when scrolling back
+        if (dir < 0) {
+          requestAnimationFrame(function () {
+            if (track.scrollLeft < pad + 8) track.scrollTo({ left: 0, behavior: "smooth" });
+          });
+        }
+      }
+      document.getElementById("how-prev").addEventListener("click", function () { scrollHow(-1); });
+      document.getElementById("how-next").addEventListener("click", function () { scrollHow(1); });
+
+      function updateHowBtns() {
+        const prev = document.getElementById("how-prev");
+        const next = document.getElementById("how-next");
+        const max = track.scrollWidth - track.clientWidth;
+        prev.setAttribute("aria-disabled", track.scrollLeft <= 8 ? "true" : "false");
+        next.setAttribute("aria-disabled", track.scrollLeft >= max - 8 ? "true" : "false");
+      }
+      track.addEventListener("scroll", updateHowBtns, { passive: true });
+      updateHowBtns();
+      track.scrollLeft = 0;
+    })();
+  </script>
+</body>
+</html>
