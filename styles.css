@@ -460,7 +460,7 @@ a:hover { color: var(--ink); }
   position: relative;
   z-index: 1;
   width: min(72%, 320px);
-  transform: translate(-8%, -9%);
+  transform: translate(-10%, 0%);
 }
 
 .mock--stat {
