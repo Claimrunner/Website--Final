@@ -195,7 +195,7 @@ a:hover { color: var(--ink); }
   inset: 0;
   /* Keep the subject's head in frame: bias the focal point toward the top so
      wide/short viewports crop the table, never the head. */
-  background: url("assets/hero-placeholder.jpg") 60% top / cover no-repeat;
+  background: url("assets/hero-placeholder.jpg") 80% top / cover no-repeat;
 }
 
 .hero__shade {
